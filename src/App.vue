@@ -1,12 +1,15 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/">Home</router-link>
     </div>
     <router-view/>
   </div>
 </template>
+
+<script>
+// import '@/assets/styles/app.css'
+</script>
 
 <style>
 #app {
@@ -27,5 +30,19 @@
 
 #nav a.router-link-exact-active {
   color: #42b983;
+}
+
+button {
+  background-color: #eaeaea;
+  padding: 12px 18px;
+  border: none;
+  transition: opacity 0.6s ease 0;
+  cursor: pointer;
+  opacity: 1;
+  outline: none;
+}
+
+button:hover {
+  opacity: 0.6;
 }
 </style>
