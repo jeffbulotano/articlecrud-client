@@ -7,5 +7,7 @@ module.exports = {
                 changeOrigin: true,
             }
         }
-    }
+    },
+    outputDir: '../../public',
+    indexPath: '../resources/views/index.blade.php'
 }
