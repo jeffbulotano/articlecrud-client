@@ -9,5 +9,5 @@ module.exports = {
         }
     },
     outputDir: '../server/public',
-    indexPath: '../server/resources/views/index.blade.php'
+    indexPath: '../resources/views/index.blade.php'
 }
