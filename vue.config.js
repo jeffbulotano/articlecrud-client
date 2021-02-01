@@ -8,6 +8,6 @@ module.exports = {
             }
         }
     },
-    outputDir: '../../public',
-    indexPath: '../resources/views/index.blade.php'
+    outputDir: '../server/public',
+    indexPath: '../server/resources/views/index.blade.php'
 }
